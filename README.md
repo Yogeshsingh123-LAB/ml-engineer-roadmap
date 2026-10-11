@@ -473,12 +473,65 @@ Links are references. Course versions and enrollment options change — check th
 
 ### SQL and tools
 
+> **Note:** LeetCode SQL 50 is only 50 questions. Use it as a starter, not the full 150+ target.
+
 | Resource | Purpose |
 |---|---|
 | [SQLBolt](https://sqlbolt.com/) | SQL fundamentals refresher |
-| [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) | Structured SQL practice |
+| [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) | 50 curated core-pattern questions (starter only) |
+| [LeetCode Database](https://leetcode.com/problemset/database/) | Extra Easy/Medium problems beyond SQL 50 |
+| [DataLemur](https://datalemur.com/questions) | Real interview questions, company-tagged |
+| [StrataScratch](https://www.stratascratch.com/) | Real-world data science SQL |
+| [HackerRank SQL](https://www.hackerrank.com/domains/sql) | Fundamentals and volume practice |
+| [SQLZoo](https://sqlzoo.net/) | Window functions, subqueries |
+| [PostgreSQL Exercises](https://pgexercises.com/) | Joins and complex queries on one dataset |
+| [Advanced SQL Practice Workbook](https://github.com/search?q=advanced+sql+practice+workbook&type=repositories) | Topic-wise volume (1,400+ questions available) |
+| [Oracle Dev Gym](https://devgym.oracle.com/) | Quizzes and theory |
+| [LearnSQL.com](https://learnsql.com/) | Structured paid path |
 | [Kaggle Learn](https://www.kaggle.com/learn) | Short pandas and intro-to-ML exercises |
 | [GitHub Skills](https://skills.github.com/) | Git and pull-request workflow |
+
+#### How to reach 150+ SQL problems
+
+| Source | Questions | Running total |
+|---|---:|---:|
+| LeetCode SQL 50 | 50 | 50 |
+| LeetCode Database (extra Easy/Medium) | +40 | 90 |
+| DataLemur (free tier) | +25 | 115 |
+| StrataScratch (free tier) | +20 | 135 |
+| HackerRank SQL | +20 | **155+** |
+| SQLZoo / PGExercises | as needed | for weak topics |
+
+**Pace:** 10–15 questions/week → 150+ in about 10–12 weeks.
+
+**Focus patterns:** joins · GROUP BY / HAVING · window functions · CTEs · subqueries · date/time functions · self-joins · conditional aggregation.
+
+**Rule:** Redo problems you got wrong after one week. Pattern recognition matters more than the raw count.
+
+#### 12-week SQL sprint (optional)
+
+Use this if you want to front-load SQL and hit 150+ early. If it clashes with CS50P or Ng, stretch it to 24 weeks at 6–7 questions/week instead.
+
+| Week | Focus | Main sources | Questions | Cumulative |
+|---|---|---:|---:|---:|
+| 1 | SELECT, WHERE, ORDER BY, LIMIT | SQLBolt 1–6 · LeetCode SQL 50 | 12 | 12 |
+| 2 | GROUP BY, HAVING, COUNT/SUM/AVG | SQLBolt 7–9 · LeetCode SQL 50 | 12 | 24 |
+| 3 | Joins: INNER, LEFT, RIGHT, self-joins | SQLBolt 10–12 · LeetCode · PGExercises | 13 | 37 |
+| 4 | Subqueries, CTEs, UNION | SQLBolt 13–15 · LeetCode SQL 50 | 13 | 50 |
+| 5 | Window functions: ROW_NUMBER, RANK, LAG/LEAD | SQLZoo · LeetCode | 13 | 63 |
+| 6 | Date/time, string, conditional logic | LeetCode · DataLemur | 13 | 76 |
+| 7 | Advanced joins, multiple CTEs, complex aggregation | StrataScratch · HackerRank | 13 | 89 |
+| 8 | Pivoting, conditional aggregation, self-joins | PGExercises · DataLemur | 13 | 102 |
+| 9 | Interview-style mixed problems | DataLemur · StrataScratch | 13 | 115 |
+| 10 | Timed practice, weak topics | LeetCode · HackerRank | 13 | 128 |
+| 11 | Company-tagged questions | DataLemur · StrataScratch | 13 | 141 |
+| 12 | Review, redo wrong problems, mock SQL interview | All sources | 13 | **154+** |
+
+**How to use it**
+- 10–15 questions/week. Split across 3–4 sessions.
+- After each session, write one sentence on the pattern you used.
+- At the end of each week, redo one problem you got wrong earlier.
+- If you finish early, stop at 150+ and switch to maintenance: 2–3 problems/week.
 
 ### Mathematics and statistics (~2 hours/week)
 
